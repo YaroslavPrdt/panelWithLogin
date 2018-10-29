@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, Datagrid, TextField, EmailField, ReferenceField } from 'react-admin';
+import { List, Datagrid, TextField, ReferenceField } from 'react-admin';
 
 
 export const PostList = (props) => (

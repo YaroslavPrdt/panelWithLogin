@@ -1,14 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const UrlField = ({ record = {}, source }) => 
+
+const MyUrlField = ({ record = {}, source }) => 
     <a href = {record[source]}>
         {record[source]}
-    </a>
+    </a>;
 
-UrlField.propTypes = {
+MyUrlField.propTypes = {
     record: PropTypes.object,
     source: PropTypes.string.isRequired,
 };
 
-export default UrlField;
+export default MyUrlField;
